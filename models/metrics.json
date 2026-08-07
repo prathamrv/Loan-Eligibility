@@ -1,0 +1,55 @@
+{
+  "models": {
+    "logistic_regression": {
+      "accuracy": 0.8455,
+      "precision": 0.83,
+      "recall": 0.9765,
+      "f1_score": 0.8973,
+      "confusion_matrix": [
+        [
+          21,
+          17
+        ],
+        [
+          2,
+          83
+        ]
+      ]
+    },
+    "decision_tree": {
+      "accuracy": 0.7724,
+      "precision": 0.8353,
+      "recall": 0.8353,
+      "f1_score": 0.8353,
+      "confusion_matrix": [
+        [
+          24,
+          14
+        ],
+        [
+          14,
+          71
+        ]
+      ]
+    },
+    "random_forest": {
+      "accuracy": 0.8211,
+      "precision": 0.8387,
+      "recall": 0.9176,
+      "f1_score": 0.8764,
+      "confusion_matrix": [
+        [
+          23,
+          15
+        ],
+        [
+          7,
+          78
+        ]
+      ]
+    }
+  },
+  "selected_model": "logistic_regression",
+  "n_train": 491,
+  "n_test": 123
+}
